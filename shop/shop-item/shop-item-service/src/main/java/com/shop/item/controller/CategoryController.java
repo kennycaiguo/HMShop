@@ -1,9 +1,8 @@
 package com.shop.item.controller;
 
+import com.shop.item.ResponseEntity;
 import com.shop.item.pojo.Category;
 import com.shop.item.service.CategoryService;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,12 +22,12 @@ public class CategoryController {
     @GetMapping("list")
     public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(name = "pid", defaultValue = "0") Long pid) {
         if (pid < 0) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            return ResponseEntity.status(ResponseEntity.Status.BAD_REQUEST);
         }
 
         List<Category> categories = categoryService.queryCategoriesByPid(pid);
         return CollectionUtils.isEmpty(categories)
-                ? ResponseEntity.status(HttpStatus.NOT_FOUND).build()
+                ? ResponseEntity.status(ResponseEntity.Status.NOT_FOUND)
                 : ResponseEntity.ok(categories);
     }
 }
