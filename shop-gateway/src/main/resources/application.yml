@@ -1,0 +1,14 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: shop-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8091/eureka
+    registry-fetch-interval-seconds: 5
+zuul:
+  prefix: /api
+  routes:
+    item-service: /item/**
