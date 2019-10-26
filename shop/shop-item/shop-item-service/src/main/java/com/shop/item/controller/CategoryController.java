@@ -1,5 +1,6 @@
 package com.shop.item.controller;
 
+import com.netflix.discovery.DiscoveryClient;
 import com.shop.item.ResponseEntity;
 import com.shop.item.pojo.Category;
 import com.shop.item.service.CategoryService;

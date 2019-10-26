@@ -6,9 +6,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8091/eureka
+      defaultZone: http://127.0.0.1:${server.port}/eureka
     register-with-eureka: false
     fetch-registry: false
   server:
-    enable-self-preservation: false
-    eviction-interval-timer-in-ms: 10000
+    enable-self-preservation: false      # 关闭自我保护状态
+    eviction-interval-timer-in-ms: 10000 # 剔除无效服务的间隔时间
