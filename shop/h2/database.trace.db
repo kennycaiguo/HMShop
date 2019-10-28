@@ -1,0 +1,60 @@
+2019-10-28 22:13:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM hm_category  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:14:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM hm_category  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:16:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:18:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:22:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT * FROM HM_CATEGORY [42102-197]
+2019-10-28 22:24:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT [*]"; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS"; SQL statement:
+show table_name [42001-197]
+2019-10-28 22:24:35 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DESC[*] TABLE_NAME "; expected "DELETE, DROP, DECLARE, DEALLOCATE, {"; SQL statement:
+desc table_name [42001-197]
+2019-10-28 22:27:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:29:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:31:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:31:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:31:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:32:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:37:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:46:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]
+2019-10-28 22:47:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY [42102-197]
+2019-10-28 22:49:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY [42102-197]
+2019-10-28 22:49:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY [42102-197]
+2019-10-28 22:56:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY [42102-197]
+2019-10-28 22:56:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HM_CATEGORY" not found; SQL statement:
+SELECT id,name,sort,parent_id,is_parent  FROM HM_CATEGORY  WHERE  parent_id = ? [42102-197]

@@ -1,6 +1,9 @@
 package com.shop.item.mapper;
 
-public class CategoryMapper {
+import com.shop.item.pojo.Category;
+import tk.mybatis.mapper.common.Mapper;
+
+public interface CategoryMapper extends Mapper<Category> {
 
 
 

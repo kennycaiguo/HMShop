@@ -5,7 +5,7 @@ spring:
     name: item-service
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:./database/data
+    url: jdbc:h2:file:./h2/database
     platform: h2
     username: admin
     password: admin
@@ -13,6 +13,10 @@ spring:
     console:
       path: /h2
       enabled: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.shop.item.pojo
 eureka:
   client:
     service-url:

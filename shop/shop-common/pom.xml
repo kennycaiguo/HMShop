@@ -10,6 +10,15 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.shop.common</groupId>
     <artifactId>shop-common</artifactId>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
 </project>

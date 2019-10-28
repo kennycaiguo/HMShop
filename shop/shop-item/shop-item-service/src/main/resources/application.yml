@@ -13,6 +13,10 @@ spring:
     console:
       path: /h2
       enabled: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.shop.item.pojo
 eureka:
   client:
     service-url:
