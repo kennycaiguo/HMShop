@@ -3,10 +3,20 @@ server:
 spring:
   application:
     name: item-service
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./database/data
+    platform: h2
+    username: admin
+    password: admin
+  h2:
+    console:
+      path: /h2
+      enabled: true
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8091/eureka
   instance:
-    lease-renewal-interval-in-seconds: 5
-    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5     # 心跳时间
+    lease-expiration-duration-in-seconds: 15 # 过期时间
