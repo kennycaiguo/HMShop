@@ -1,29 +1,31 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 
-import Home from '../pages/Home.vue';
-import UserPosts from '../pages/Posts.vue'
-import UserProfile from '../pages/Profile.vue'
+Vue.use(VueRouter)
 
-Vue.use(Router)
-
-export default new Router({
-    routes: [
-        {
-            path: '/',
-            name: 'home',
-            component: Home,
-            children: [
-                {
-
-                    path: 'profile',
-                    component: UserProfile
-                },
-                {
-                    path: 'posts',
-                    component: UserPosts
-                }
-            ]
-        }
-    ]
+const router = new VueRouter({
+    routes: [{
+        path: '',
+        component: () => import('../components/Layout.vue'),
+        children: [{
+                path: '/',
+                component: () => import('../pages/Main.vue')
+            },
+            {
+                path: '/goods/category',
+                component: () => import('../pages/goods/Category')
+            },
+            {
+                path: '/goods/brand',
+                component: () => import('../pages/goods/Brand')
+            }
+        ]
+    }]
 })
+
+// 权限验证
+router.beforeEach((to, from, next) => {
+    next()
+})
+
+export default router;

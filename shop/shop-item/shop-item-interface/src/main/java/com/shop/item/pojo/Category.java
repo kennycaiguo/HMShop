@@ -17,7 +17,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String  name;
-    private Integer sort;
+//    private Integer sort;
     private Long    parentId;
     private Boolean isParent;
 

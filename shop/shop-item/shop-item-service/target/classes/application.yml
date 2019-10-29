@@ -13,6 +13,8 @@ spring:
     console:
       path: /h2
       enabled: true
+      settings:
+        web-allow-others: true
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
