@@ -4,6 +4,7 @@ import com.shop.common.pojo.PageResponseEntity;
 import com.shop.item.ResponseEntity;
 import com.shop.item.pojo.Brand;
 import com.shop.item.service.BrandService;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -24,10 +25,11 @@ public class BrandController {
             @RequestParam(value = "page", defaultValue = "1") Integer page,
             @RequestParam(value = "rows", defaultValue = "10") Integer rows,
             @RequestParam(value = "sortBy", defaultValue = "id") String sortBy,
-            @RequestParam(value = "desc", required = false) Boolean desc) {
+            @RequestParam(value = "desc", defaultValue = "false") Boolean desc) {
 
-        PageResponseEntity<Brand> brandPageResponseEntity = brandService.queryBrandsByPage(key, page, rows, sortBy, desc);
-
-        return null;
+        PageResponseEntity<Brand> entity = brandService.queryBrandsByPage(key, page, rows, sortBy, desc);
+        return CollectionUtils.isEmpty(entity.getItems())
+                ? ResponseEntity.status(ResponseEntity.Status.NOT_FOUND)
+                : ResponseEntity.ok(entity);
     }
 }
