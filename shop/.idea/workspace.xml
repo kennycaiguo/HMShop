@@ -2,53 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3176dde-5f7e-4ed5-874b-1128b7d23549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/h2/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h2/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/config/CorsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/components/TodoAdd.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/Posts.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/Profile.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop-admin/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h2/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/hm_shop.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/shop-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/shop-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-gateway/shop-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-gateway/shop-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/shop-item-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/shop-item-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity$Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/shop-item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/shop-item-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/ShopItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/ShopItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-registry/shop-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-registry/shop-registry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-registry/target/classes/com/shop/item/registry/ShopRegistryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-registry/target/classes/com/shop/item/registry/ShopRegistryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,6 +136,7 @@
       <workItem from="1572311443936" duration="1145000" />
       <workItem from="1572320501204" duration="4000" />
       <workItem from="1572320541010" duration="4680000" />
+      <workItem from="1572351634900" duration="2079000" />
     </task>
     <servers />
   </component>
