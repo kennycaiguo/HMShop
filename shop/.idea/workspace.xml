@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3176dde-5f7e-4ed5-874b-1128b7d23549" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/components/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/components/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h2/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.trace.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,8 +136,17 @@
       <workItem from="1572311443936" duration="1145000" />
       <workItem from="1572320501204" duration="4000" />
       <workItem from="1572320541010" duration="4680000" />
-      <workItem from="1572351634900" duration="2079000" />
+      <workItem from="1572351634900" duration="3293000" />
+      <workItem from="1572433795665" duration="2389000" />
     </task>
+    <task id="LOCAL-00001" summary="添加品牌">
+      <created>1572353815192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572353815193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -164,6 +173,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="添加品牌" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加品牌" />
   </component>
   <component name="masterDetails">
     <states>

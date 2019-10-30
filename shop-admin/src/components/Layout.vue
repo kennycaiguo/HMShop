@@ -1,5 +1,5 @@
 <template>
-  <el-container style="height: 500px;">
+  <el-container>
     <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
       <el-menu :default-openeds="['2']">
         <router-link to="/">
@@ -53,6 +53,10 @@
 
 .el-aside {
   color: #333;
+}
+
+.el-menu {
+  min-height: 100%;
 }
 </style>
 
