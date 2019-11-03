@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/shop-item/shop-item-interface/shop-item-interface.iml" filepath="$PROJECT_DIR$/shop-item/shop-item-interface/shop-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-item/shop-item-service/shop-item-service.iml" filepath="$PROJECT_DIR$/shop-item/shop-item-service/shop-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-registry/shop-registry.iml" filepath="$PROJECT_DIR$/shop-registry/shop-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-upload/shop-upload.iml" filepath="$PROJECT_DIR$/shop-upload/shop-upload.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package com.shop.item.controller;
 
 import com.shop.item.ResponseEntity;
-import com.shop.item.pojo.Category;
+import com.shop.item.entities.CategoryEntity;
 import com.shop.item.service.CategoryService;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
@@ -17,12 +17,12 @@ public class CategoryController {
     private CategoryService categoryService;
 
     @GetMapping("/list/{pid}")
-    public ResponseEntity<List<Category>> queryCategoriesByPid(@PathVariable(name = "pid") Long pid) {
+    public ResponseEntity<List<CategoryEntity>> queryCategoriesByPid(@PathVariable(name = "pid") Long pid) {
         if (pid < 0) {
             return ResponseEntity.status(ResponseEntity.Status.BAD_REQUEST);
         }
 
-        List<Category> categories = categoryService.queryCategoriesByPid(pid);
+        List<CategoryEntity> categories = categoryService.queryCategoriesByPid(pid);
         return CollectionUtils.isEmpty(categories)
                 ? ResponseEntity.status(ResponseEntity.Status.NOT_FOUND)
                 : ResponseEntity.ok(categories);
