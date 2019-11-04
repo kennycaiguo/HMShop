@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.trace.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,9 @@
       <workItem from="1572320501204" duration="4000" />
       <workItem from="1572320541010" duration="4680000" />
       <workItem from="1572351634900" duration="3293000" />
-      <workItem from="1572433795665" duration="2389000" />
+      <workItem from="1572433795665" duration="2456000" />
+      <workItem from="1572525226446" duration="593000" />
+      <workItem from="1572840094515" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="添加品牌">
       <created>1572353815192</created>
