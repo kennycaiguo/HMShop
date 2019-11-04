@@ -1,4 +1,4 @@
-package com.shop.item.pojo;
+package com.shop.item.entities;
 
 import lombok.Data;
 import lombok.ToString;
@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Data
 @ToString
 @Table(name = "HM_BRAND")
-public class Brand {
+public class BrandEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,4 +26,14 @@ public class Brand {
     // 首字母
     private Character letter;
 
+
+    public BrandEntity(){
+        //
+    }
+
+    public BrandEntity(String name, String image, Character letter){
+        this.name = name;
+        this.image = image;
+        this.letter = letter;
+    }
 }

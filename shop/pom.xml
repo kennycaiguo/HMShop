@@ -16,6 +16,8 @@
         <module>shop-common</module>
         <module>shop-gateway</module>
         <module>shop-item</module>
+        <module>upload</module>
+        <module>shop-upload</module>
     </modules>
 
     <parent>

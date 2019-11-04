@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shop-common" />
         <module name="shop-gateway" />
         <module name="shop-item-interface" />
-        <module name="shop-registry" />
-        <module name="shop-common" />
         <module name="shop-item-service" />
+        <module name="shop-registry" />
+        <module name="shop-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,15 +23,17 @@
       <module name="shop-item-interface" target="1.8" />
       <module name="shop-item-service" target="1.8" />
       <module name="shop-registry" target="1.8" />
+      <module name="shop-upload" target="1.8" />
+      <module name="upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="shop-common" options="-parameters" />
-      <module name="shop-gateway" options="-parameters" />
-      <module name="shop-item-interface" options="-parameters" />
-      <module name="shop-item-service" options="-parameters" />
-      <module name="shop-registry" options="-parameters" />
+      <module name="shop-common" options="" />
+      <module name="shop-gateway" options="" />
+      <module name="shop-item-interface" options="" />
+      <module name="shop-item-service" options="" />
+      <module name="shop-registry" options="" />
     </option>
   </component>
 </project>
