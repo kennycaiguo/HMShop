@@ -9,6 +9,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
 @RequestMapping("/brand")
@@ -38,8 +39,8 @@ public class BrandController {
      * 添加品牌
      */
     @PostMapping("/add")
-    public ResponseEntity add(@RequestBody BrandBo brand) {
-        brandService.add(brand);
+    public ResponseEntity add(BrandEntity brand, List<Long> categoryIds) {
+        brandService.add(brand, categoryIds);
         return ResponseEntity.ok(null);
     }
 

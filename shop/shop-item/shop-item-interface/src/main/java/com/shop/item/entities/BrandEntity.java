@@ -28,7 +28,7 @@ public class BrandEntity {
 
 
     public BrandEntity(){
-        //
+        // 占位
     }
 
     public BrandEntity(String name, String image, Character letter){

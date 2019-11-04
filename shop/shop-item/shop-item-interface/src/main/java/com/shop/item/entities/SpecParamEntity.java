@@ -10,27 +10,26 @@ import javax.persistence.Table;
 
 @Data
 @ToString
-@Table(name = "HM_CATEGORY")
-public class CategoryEntity {
+@Table(name = "HM_SPEC_PARAM")
+public class SpecParamEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // 分类名称
-    private String  name;
+    private String name;
 
-    // 父节点Id
-    private Long    parentId;
+    private String unit;
 
-    // 是否为父节点
-    private Boolean isParent;
+    private Long groupId;
 
-    public CategoryEntity(){
+    private Long categoryId;
 
-    }
+    private String segments;
 
-    public CategoryEntity(Long parentId){
-        this.parentId = parentId;
-    }
+    private Boolean numeric;
+
+    private Boolean generic;
+
+    private Boolean searching;
 }

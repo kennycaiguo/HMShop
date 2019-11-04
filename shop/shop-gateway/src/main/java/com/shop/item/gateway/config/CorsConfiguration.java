@@ -1,4 +1,4 @@
-package com.shop.item.config;
+package com.shop.item.gateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

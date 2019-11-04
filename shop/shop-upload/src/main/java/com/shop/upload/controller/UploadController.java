@@ -20,7 +20,7 @@ public class UploadController {
 
     @PostMapping("/image")
     public ResponseEntity<String> image(@RequestParam("file") MultipartFile multipartFile) {
-        String path = uploadService.upload(multipartFile);
+        String path = uploadService.image(multipartFile);
         if (StringUtils.isEmpty(path)) {
             return ResponseEntity.status(ResponseEntity.Status.BAD_REQUEST);
         }

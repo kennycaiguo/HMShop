@@ -15,6 +15,7 @@ import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.function.Consumer;
 
 @Service
 public class BrandService {
@@ -49,14 +50,14 @@ public class BrandService {
 
     // 添加品牌
     @Transactional
-    public void add(BrandBo brand) {
+    public void add(BrandEntity brand, List<Long> categoryIds) {
         String imagePath = brand.getImage();
         if (imagePath != null){
             // 判断图片路径是否存在于服务器
         }
 
-        mBrandMapper.insert(new BrandEntity(brand.getName(), brand.getImage(), brand.getLetter()));
-        mCategoryBrandMapper.insert(new CategoryBrandEntity(0L, brand.getCategoryId()));
+        mBrandMapper.insertSelective(brand);
+        categoryIds.forEach(id -> mCategoryBrandMapper.insert(new CategoryBrandEntity(brand.getId(), id)));
     }
 
 }

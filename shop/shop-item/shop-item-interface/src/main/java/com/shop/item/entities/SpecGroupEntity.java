@@ -10,25 +10,16 @@ import javax.persistence.Table;
 
 @Data
 @ToString
-@Table(name = "HM_CATEGORY_BRAND")
-public class CategoryBrandEntity {
+@Table(name = "HM_SPEC_GROUP")
+public class SpecGroupEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // 品牌id
-    private Long brandId;
+    // 名称
+    private String name;
 
     // 分类id
     private Long categoryId;
-
-    public CategoryBrandEntity() {
-        // 占位
-    }
-
-    public CategoryBrandEntity(Long brandId, Long categoryId) {
-        this.brandId = brandId;
-        this.categoryId = categoryId;
-    }
 }

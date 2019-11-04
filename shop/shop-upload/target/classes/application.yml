@@ -1,0 +1,11 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: shop-upload
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8091/eureka
+    registry-fetch-interval-seconds: 5

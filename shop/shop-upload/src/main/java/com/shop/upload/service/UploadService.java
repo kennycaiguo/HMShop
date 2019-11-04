@@ -8,6 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -16,14 +17,14 @@ import java.util.List;
 public class UploadService {
 
     // 图片后缀
-    private static final List<String> sImageSuffix = Arrays.asList("image/jpeg", "image/gif");
+    private static final List<String> sImageSuffix = Arrays.asList("image/jpeg", "image/gif", "image/png");
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 
 
-    public String upload(MultipartFile multipartFile) {
+    public String image(MultipartFile multipartFile) {
         String suffix = StringUtils.join(sImageSuffix, ",");
-        if (!StringUtils.contains(suffix,multipartFile.getContentType())) {
+        if (!StringUtils.contains(suffix, multipartFile.getContentType())) {
             logger.error("{} -> 图片格式错误：{}", multipartFile.getOriginalFilename(), multipartFile.getContentType());
             return null;
         }
@@ -35,7 +36,7 @@ public class UploadService {
                 return null;
             }
 
-//            multipartFile.transferTo(new File(multipartFile.getName()));
+//            multipartFile.transferTo(new File("C:\\Users\\peng\\Desktop\\", multipartFile.getOriginalFilename()));
             return multipartFile.getOriginalFilename();
         } catch (IOException e) {
             e.printStackTrace();

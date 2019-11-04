@@ -18,7 +18,7 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-  type-aliases-package: com.shop.item.pojo
+  type-aliases-package: com.shop.item.entities
 eureka:
   client:
     service-url:
