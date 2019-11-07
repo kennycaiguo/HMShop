@@ -18,6 +18,9 @@ const router = new VueRouter({
             {
                 path: '/goods/brand',
                 component: () => import('../pages/goods/Brand')
+            }, {
+                path: '/goods/specification',
+                component: () => import('../pages/goods/Specification')
             }
         ]
     }]

@@ -5,7 +5,7 @@ import {
 
 // 配置
 const service = Axios.create({
-    baseURL: 'http://192.168.1.28:8081/',
+    baseURL: 'http://127.0.0.1:8090/api/',
     timeout: 50000
 })
 

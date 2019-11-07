@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3176dde-5f7e-4ed5-874b-1128b7d23549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/BrandBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/CategoryBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/shop-upload.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/ShopUploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/SpecificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpecParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/components/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/components/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Brand.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/pages/goods/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shop-admin/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecGroupEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecGroupEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-registry/target/classes/com/shop/item/registry/ShopRegistryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-registry/target/classes/com/shop/item/registry/ShopRegistryApplication.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="275" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -80,6 +80,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shop.item.gateway.config" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -114,10 +119,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shop.upload.ShopUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ShopGatewayApplication" />
       <item itemvalue="Spring Boot.ShopItemApplication" />
       <item itemvalue="Spring Boot.ShopRegistryApplication" />
+      <item itemvalue="Spring Boot.ShopUploadApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -147,6 +160,9 @@
       <workItem from="1572320541010" duration="4680000" />
       <workItem from="1572351634900" duration="3293000" />
       <workItem from="1572433795665" duration="2389000" />
+      <workItem from="1572868530163" duration="653000" />
+      <workItem from="1572923064354" duration="163000" />
+      <workItem from="1573126113460" duration="2547000" />
     </task>
     <task id="LOCAL-00001" summary="添加品牌">
       <created>1572353815192</created>
@@ -155,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572353815193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加entity">
+      <created>1572871408846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572871408846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -187,7 +210,23 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="添加品牌" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加品牌" />
+    <MESSAGE value="。" />
+    <MESSAGE value="添加entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加entity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hm_shop$ShopItemApplication.ic" NAME="ShopItemApplication Coverage Results" MODIFIED="1572840605692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>

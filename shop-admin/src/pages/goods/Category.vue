@@ -26,7 +26,7 @@ export default {
     },
 
     getData(resolve, id) {
-      this.axios.get(`/category/list/${id}`).then(response => {
+      this.axios.get(`item/category/list/${id}`).then(response => {
         resolve(
           response.data.map(item => {
             return {

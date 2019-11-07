@@ -22,4 +22,12 @@ public class SpecGroupEntity {
 
     // 分类id
     private Long categoryId;
+
+    public SpecGroupEntity() {
+        // 预留
+    }
+
+    public SpecGroupEntity(Long categoryId) {
+        this.categoryId = categoryId;
+    }
 }

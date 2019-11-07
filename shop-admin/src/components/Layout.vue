@@ -18,7 +18,9 @@
               <el-menu-item index="2-2">品牌管理</el-menu-item>
             </router-link>
             <el-menu-item index="2-3">商品列表</el-menu-item>
-            <el-menu-item index="2-4">规格参数</el-menu-item>
+            <router-link to="/goods/specification">
+              <el-menu-item index="2-4">规格参数</el-menu-item>
+            </router-link>
           </el-menu-item-group>
         </el-submenu>
       </el-menu>

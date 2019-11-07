@@ -89,7 +89,7 @@ export default {
     },
 
     getData(params) {
-      this.axios.get("/brand/page", { params }).then(response => {
+      this.axios.get("item/brand/page", { params }).then(response => {
         const { total, items } = response.data;
         this.pageCount = total;
         this.tableData = items;
