@@ -1,4 +1,4 @@
-package com.shop.item;
+package com.shop.common.pojo;
 
 import lombok.Data;
 import lombok.ToString;

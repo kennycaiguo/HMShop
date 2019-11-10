@@ -1,8 +1,7 @@
 package com.shop.item.controller;
 
 import com.shop.common.pojo.PageResponseEntity;
-import com.shop.item.ResponseEntity;
-import com.shop.item.bo.BrandBo;
+import com.shop.common.pojo.ResponseEntity;
 import com.shop.item.entities.BrandEntity;
 import com.shop.item.service.BrandService;
 import org.springframework.util.CollectionUtils;

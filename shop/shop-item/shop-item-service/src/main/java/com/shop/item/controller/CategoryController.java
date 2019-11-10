@@ -1,6 +1,6 @@
 package com.shop.item.controller;
 
-import com.shop.item.ResponseEntity;
+import com.shop.common.pojo.ResponseEntity;
 import com.shop.item.entities.CategoryEntity;
 import com.shop.item.service.CategoryService;
 import org.springframework.util.CollectionUtils;

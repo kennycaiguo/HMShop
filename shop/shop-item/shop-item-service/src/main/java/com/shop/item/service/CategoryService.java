@@ -6,15 +6,26 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class CategoryService {
 
     @Resource
-    private CategoryMapper categoryMapper;
+    private CategoryMapper mCategoryMapper;
+
 
     public List<CategoryEntity> queryCategoriesByPid(Long pid) {
-        return categoryMapper.select(new CategoryEntity(pid));
+        return mCategoryMapper.select(new CategoryEntity(pid));
+    }
+
+
+    public List<String> queryNamesByIds(List<Long> ids) {
+        return this.mCategoryMapper.selectByIdList(ids)
+                .stream()
+                .map(CategoryEntity::getName)
+                .collect(Collectors.toList());
     }
 
 }
