@@ -22,13 +22,4 @@ public class CategoryBrandEntity {
 
     // 分类id
     private Long categoryId;
-
-    public CategoryBrandEntity() {
-        // 占位
-    }
-
-    public CategoryBrandEntity(Long brandId, Long categoryId) {
-        this.brandId = brandId;
-        this.categoryId = categoryId;
-    }
 }

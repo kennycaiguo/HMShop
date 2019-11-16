@@ -20,7 +20,7 @@ public class SpuDetailEntity {
     private Long id;
 
     // sup id
-    private Long supId;
+    private Long spuId;
 
     // 商品描述
     private String description;

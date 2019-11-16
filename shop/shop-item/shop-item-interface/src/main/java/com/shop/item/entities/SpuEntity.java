@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Date;
 
 @Data
 @Builder
@@ -44,8 +45,8 @@ public class SpuEntity {
     private Boolean valid;
 
     // 创建时间
-    private Long createTime;
+    private Date createTime;
 
     // 修改时间
-    private Long lastUpdateTime;
+    private Date lastUpdateTime;
 }

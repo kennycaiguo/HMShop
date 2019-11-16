@@ -14,7 +14,7 @@ import java.util.List;
 public class CategoryController {
 
     @Resource
-    private CategoryService categoryService;
+    private CategoryService mCategoryService;
 
     @GetMapping("/list/{pid}")
     public ResponseEntity<List<CategoryEntity>> queryCategoriesByPid(@PathVariable(name = "pid") Long pid) {
@@ -22,9 +22,15 @@ public class CategoryController {
             return ResponseEntity.status(ResponseEntity.Status.BAD_REQUEST);
         }
 
-        List<CategoryEntity> categories = categoryService.queryCategoriesByPid(pid);
+        List<CategoryEntity> categories = mCategoryService.queryCategoriesByPid(pid);
         return CollectionUtils.isEmpty(categories)
                 ? ResponseEntity.status(ResponseEntity.Status.NOT_FOUND)
                 : ResponseEntity.ok(categories);
+    }
+
+    @PostMapping("/add")
+    public ResponseEntity<Void> add(@RequestBody CategoryEntity category){
+        mCategoryService.addCategory(category);
+        return ResponseEntity.ok(null);
     }
 }

@@ -1,5 +1,6 @@
 package com.shop.item.entities;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
@@ -9,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Data
+@Builder
 @ToString
 @Table(name = "HM_SPEC_PARAM")
 public class SpecParamEntity {

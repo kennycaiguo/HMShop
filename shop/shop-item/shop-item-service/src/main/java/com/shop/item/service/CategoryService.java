@@ -2,6 +2,7 @@ package com.shop.item.service;
 
 import com.shop.item.mapper.CategoryMapper;
 import com.shop.item.entities.CategoryEntity;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -28,4 +29,9 @@ public class CategoryService {
                 .collect(Collectors.toList());
     }
 
+    public void addCategory(CategoryEntity category) {
+        if (StringUtils.isNotEmpty(category.getName())) {
+            mCategoryMapper.insert(category);
+        }
+    }
 }

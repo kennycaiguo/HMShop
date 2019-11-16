@@ -3,7 +3,6 @@ package com.shop.item.service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.shop.common.pojo.PageResponseEntity;
-import com.shop.item.bo.BrandBo;
 import com.shop.item.entities.CategoryBrandEntity;
 import com.shop.item.mapper.BrandMapper;
 import com.shop.item.mapper.CategoryBrandMapper;
@@ -15,7 +14,6 @@ import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
 import java.util.List;
-import java.util.function.Consumer;
 
 @Service
 public class BrandService {
@@ -48,16 +46,24 @@ public class BrandService {
         return PageResponseEntity.create(pageInfo.getPages(), pageInfo.getPageNum(), brands);
     }
 
+
     // 添加品牌
     @Transactional
-    public void add(BrandEntity brand, List<Long> categoryIds) {
+    public void add(BrandEntity brand, Long categoryId) {
         String imagePath = brand.getImage();
-        if (imagePath != null){
+        if (imagePath != null) {
             // 判断图片路径是否存在于服务器
         }
 
         mBrandMapper.insertSelective(brand);
-        categoryIds.forEach(id -> mCategoryBrandMapper.insert(new CategoryBrandEntity(brand.getId(), id)));
+        mBrandMapper.insertCategoryAndBrand(categoryId, brand.getId());
+        //categoryIds.forEach(id -> mBrandMapper.insertCategoryAndBrand(id, brand.getId()));
+    }
+
+
+    // 根据分类查询品牌
+    public List<BrandEntity> queryBrandByCategoryId(Long categoryId) {
+        return mBrandMapper.selectBrandByCategoryId(categoryId);
     }
 
 }

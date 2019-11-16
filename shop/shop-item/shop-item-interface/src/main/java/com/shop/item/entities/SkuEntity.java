@@ -4,10 +4,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.Date;
 
 @Data
 @Builder
@@ -20,7 +18,7 @@ public class SkuEntity {
     private Long id;
 
     // sup id
-    private Long supId;
+    private Long spuId;
 
     // 标题
     private String title;
@@ -34,16 +32,20 @@ public class SkuEntity {
     // 特有规格属性在SPU属性模板中的对应下标组合
     private String indexes;
 
-    // SPU特有规格键值对
+    // spu 特有规格键值对
     private String ownSpec;
 
     // 是否有效
     private Boolean enable;
 
+    // 库存
+    @Transient
+    private Integer stock;
+
     // 创建时间
-    private Long createTime;
+    private Date createTime;
 
     // 最后修改时间
-    private Long lastUpdateTime;
+    private Date lastUpdateTime;
 
 }
