@@ -150,6 +150,4 @@ public class GoodsService {
     public List<SkuEntity> querySkuListBySpuId(Long spuId) {
         return null;
     }
-
-
 }

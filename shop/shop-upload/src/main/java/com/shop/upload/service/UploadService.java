@@ -21,7 +21,6 @@ public class UploadService {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 
-
     public String image(MultipartFile multipartFile) {
         String suffix = StringUtils.join(sImageSuffix, ",");
         if (!StringUtils.contains(suffix, multipartFile.getContentType())) {

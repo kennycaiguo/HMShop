@@ -34,7 +34,6 @@ public class BrandController {
                 : ResponseEntity.ok(entity);
     }
 
-
     /**
      * 添加品牌
      */
@@ -43,7 +42,6 @@ public class BrandController {
         mBrandService.add(brand, categoryId);
         return ResponseEntity.ok(null);
     }
-
 
     /**
      * 根据分类查询品牌

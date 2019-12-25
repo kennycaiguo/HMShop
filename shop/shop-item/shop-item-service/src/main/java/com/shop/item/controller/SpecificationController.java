@@ -32,7 +32,6 @@ public class SpecificationController {
         return ResponseEntity.ok(null);
     }
 
-
     @GetMapping("/params")
     public ResponseEntity<List<SpecParamEntity>> queryParams(
             @RequestParam(value = "groupId", required = false) Long groupId,

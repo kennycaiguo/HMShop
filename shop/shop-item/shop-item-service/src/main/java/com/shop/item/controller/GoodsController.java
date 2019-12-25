@@ -18,7 +18,6 @@ public class GoodsController {
     @Resource
     private GoodsService mGoodsService;
 
-
     /**
      * 分页查询spu
      */

@@ -2,45 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3176dde-5f7e-4ed5-874b-1128b7d23549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/StockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/StockMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h2/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h2/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/database.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/h2/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shop-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-gateway/target/shop-gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/shop-gateway/target/shop-gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/SpuBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/SpuBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SkuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SkuEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecParamEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecParamEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuDetailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuDetailEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/ResponseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/PageResponseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/PageResponseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/ResponseEntity$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/ResponseEntity$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/ResponseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-common/target/classes/com/shop/common/pojo/ResponseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/BrandBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/BrandBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/SpuBo$SpuBoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/SpuBo$SpuBoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/SpuBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/bo/SpuBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/BrandEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/BrandEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/CategoryBrandEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/CategoryBrandEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/CategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/CategoryEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SkuEntity$SkuEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SkuEntity$SkuEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SkuEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SkuEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecGroupEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecGroupEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecParamEntity$SpecParamEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecParamEntity$SpecParamEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecParamEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpecParamEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuDetailEntity$SpuDetailEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuDetailEntity$SpuDetailEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuDetailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuDetailEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuEntity$SpuEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuEntity$SpuEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/SpuEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/StockEntity$StockEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/StockEntity$StockEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/StockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-interface/target/classes/com/shop/item/entities/StockEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/ShopItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/ShopItemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/BrandController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/SpecificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/controller/SpecificationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/mapper/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/BrandService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shop-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-registry/target/shop-registry-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/shop-registry/target/shop-registry-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/SpecificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-item/shop-item-service/target/classes/com/shop/item/service/SpecificationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-upload/shop-upload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-upload/shop-upload.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-upload/src/main/java/com/shop/upload/service/UploadService.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/shop-gateway/target/" />
-    <ignored path="$PROJECT_DIR$/shop-registry/target/" />
-    <ignored path="$PROJECT_DIR$/shop-item/shop-item-service/target/" />
-    <ignored path="$PROJECT_DIR$/shop-item/shop-item-interface/target/" />
-    <ignored path="$PROJECT_DIR$/shop-common/target/" />
-    <ignored path="$PROJECT_DIR$/shop-item/target/" />
-    <ignored path="$PROJECT_DIR$/shop-upload/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,75 +72,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-122021901">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="105" />
-          <entry key="sql" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="105" />
-          <entry key="SQL" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="5517" />
-          <entry key="sql" value="245" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5517" />
-          <entry key="SQL" value="245" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/GoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="e#5917#5918#0" expanded="true" />
-                <element signature="e#5944#5945#0" expanded="true" />
-                <element signature="e#5865#5866#0" expanded="true" />
-                <element signature="e#5892#5893#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -144,41 +83,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpuMapper.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpuDetailMapper.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SkuMapper.java" />
-        <option value="$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/BrandMapper.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecParamEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/SpecificationService.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/SpecificationController.java" />
-        <option value="$PROJECT_DIR$/h2/schema.sql" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/StockMapper.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/StockEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/SpuBo.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuDetailEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SkuEntity.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/GoodsService.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -186,258 +90,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-item" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-item-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shop-upload" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1SrAegpzJUCiFPChGw594F9CZh0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="h2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hm-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -547,6 +205,9 @@
       <workItem from="1573126113460" duration="2547000" />
       <workItem from="1573388104870" duration="4213000" />
       <workItem from="1573868200037" duration="13662000" />
+      <workItem from="1574853164907" duration="8000" />
+      <workItem from="1577180640610" duration="1108000" />
+      <workItem from="1577236578588" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="添加品牌">
       <created>1572353815192</created>
@@ -565,9 +226,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17875000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -576,44 +234,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3347666" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3298647" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6014568" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3298647" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32985258" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -624,21 +244,12 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -650,262 +261,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hm_shop$ShopItemApplication.ic" NAME="ShopItemApplication Coverage Results" MODIFIED="1572840605692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/h2/data.sql" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/GeneratedValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SkuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/PageResponseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/ids/SelectByIdsMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/SpuDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/BrandBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/BrandEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/BrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/CategoryBrandEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-common/src/main/java/com/shop/common/pojo/ResponseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpecParamEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/SpecificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/SpecificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/CategoryBrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/mapper/StockMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/StockEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h2/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="110" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SpuDetailEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/entities/SkuEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-interface/src/main/java/com/shop/item/bo/SpuBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-item/shop-item-service/src/main/java/com/shop/item/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#5917#5918#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-            <element signature="e#5865#5866#0" expanded="true" />
-            <element signature="e#5892#5893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

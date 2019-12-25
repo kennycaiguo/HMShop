@@ -30,12 +30,13 @@ public class SpecificationService {
      * 查询参数
      */
     public List<SpecParamEntity> queryParams(Long id, Long groupId, Boolean generic, Boolean searching) {
-        return mSpecParamMapper.select(SpecParamEntity.builder()
-                .id(id)
-                .groupId(groupId)
-                .generic(generic)
-                .searching(searching)
-                .build()
+        return mSpecParamMapper.select(
+                SpecParamEntity.builder()
+                        .id(id)
+                        .groupId(groupId)
+                        .generic(generic)
+                        .searching(searching)
+                        .build()
         );
     }
 

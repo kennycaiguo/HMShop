@@ -130,5 +130,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" level="project" />
     <orderEntry type="module" module-name="shop-item-interface" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="module" module-name="shop-common" />
   </component>
 </module>
