@@ -26,26 +26,16 @@ public class GoodsService {
 
     private Logger logger = LoggerFactory.getLogger(getClass().getName());
 
-    @Resource
-    private SpuMapper mSpuMapper;
+    @Resource private SkuMapper       mSkuMapper;
+    @Resource private SpuMapper       mSpuMapper;
+    @Resource private BrandMapper     mBrandMapper;
+    @Resource private StockMapper     mStockMapper;
+    @Resource private CategoryService mCategoryService;
+    @Resource private SpuDetailMapper mSpuDetailMapper;
 
-    @Resource
-    private BrandMapper mBrandMapper;
-
-    @Resource
-    private SkuMapper mSkuMapper;
-
-    @Resource
-    private StockMapper mStockMapper;
-
-    @Resource
-    private CategoryService mCategoryService;
-
-    @Resource
-    private SpuDetailMapper mSpuDetailMapper;
 
     // 分页查询spu
-    public PageResponseEntity<SpuBo> querySpuByPage(String key, String saleable, Integer page, Integer rows) {
+    public PageResponseEntity<SpuBo> querySpuByPage(String key, Boolean saleable, Integer page, Integer rows) {
         Example example = new Example(SpuEntity.class);
         Example.Criteria criteria = example.createCriteria();
 
@@ -65,6 +55,7 @@ public class GoodsService {
 
         // 查询
         Stream<SpuBo> spuBoStream = spuEntities.stream().map(spu -> {
+
             // 品牌信息
             BrandEntity brandEntity = mBrandMapper.selectByPrimaryKey(spu.getBrandId());
 
@@ -72,7 +63,7 @@ public class GoodsService {
             List<String> categoryNames = mCategoryService.queryNamesByIds(Arrays.asList(spu.getCategoryId1(), spu.getCategoryId2(), spu.getCategoryId3()));
 
             return SpuBo.builder()
-                    .spuId(spu.getId())
+                    .spuId(spu.getSpuId())
                     .brandId(spu.getBrandId())
                     .brandName(brandEntity.getName())
                     .categoryId1(spu.getCategoryId1())
@@ -93,10 +84,11 @@ public class GoodsService {
         return PageResponseEntity.create(spuPageInfo.getPageNum(), spuPageInfo.getPages(), spuBoStream.collect(Collectors.toList()));
     }
 
-    // 保存商品
+
+    // 添加商品
     @Transactional
     public void addGoods(SpuBo spu) {
-        logger.info("add Goods >> "+ spu.toString());
+        logger.info("add Goods >> " + spu.toString());
 
         Date date = new Date();
         SpuEntity spuEntity = SpuEntity.builder()
@@ -115,13 +107,13 @@ public class GoodsService {
 
         // 添加详情
         SpuDetailEntity spuDetailEntity = spu.getSpuDetail();
-        spuDetailEntity.setSpuId(spuEntity.getId());
+        spuDetailEntity.setSpuId(spuEntity.getSpuId());
         mSpuDetailMapper.insertSelective(spuDetailEntity);
 
         // 添加sku, stock
         spu.getSku().forEach(sku -> {
             // sku
-            sku.setSpuId(spuEntity.getId());
+            sku.setSpuId(spuEntity.getSpuId());
             sku.setCreateTime(date);
             sku.setLastUpdateTime(date);
             mSkuMapper.insertSelective(sku);
@@ -129,27 +121,86 @@ public class GoodsService {
             // 存储
             mStockMapper.insertSelective(
                     StockEntity.builder()
-                            .skuId(sku.getSpuId())
+                            .skuId(sku.getId())
                             .stock(sku.getStock())
                             .build()
             );
         });
     }
 
+
     // 修改商品
     @Transactional
     public void updateGoods(SpuBo spu) {
-        // 删除老版本，再添加数据
+        Date date = new Date();
+        List<SkuEntity> skuList = spu.getSku();
 
+        if (skuList != null && !skuList.isEmpty()) {
+            logger.info("updateGoods >> sku不为空");
+
+            // 删除stocks
+            skuList.forEach(sku -> mStockMapper.delete(StockEntity.builder().skuId(sku.getId()).build()));
+
+            // 删除sku
+            mSkuMapper.delete(SkuEntity.builder().spuId(spu.getSpuId()).build());
+
+            // 重新添加
+            skuList.forEach(sku -> {
+                // sku
+                if (sku.getCreateTime() == null) {
+                    sku.setCreateTime(date);
+                }
+
+                sku.setLastUpdateTime(date);
+                sku.setSpuId(spu.getSpuId());
+                mSkuMapper.insertSelective(sku);
+
+                // stock
+                StockEntity stockEntity = StockEntity.builder().skuId(sku.getId()).stock(sku.getStock()).build();
+                mStockMapper.insertSelective(stockEntity);
+            });
+        }
+
+        // 修改spu详情
+        mSpuDetailMapper.updateByPrimaryKeySelective(spu.getSpuDetail());
+
+        // 修改spu
+        mSpuMapper.updateByPrimaryKeySelective(
+                SpuEntity.builder()
+                        .title(spu.getTitle())
+                        .subTitle(spu.getSubTitle())
+                        .brandId(spu.getBrandId())
+                        .categoryId1(spu.getCategoryId1())
+                        .categoryId2(spu.getCategoryId2())
+                        .categoryId3(spu.getCategoryId3())
+                        .valid(null)
+                        .saleable(null)
+                        .createTime(null)
+                        .lastUpdateTime(date)
+                        .build()
+        );
     }
 
+
+    // spu详情
     public SpuDetailEntity querySpuDetailBySpuId(Long spuId) {
-        return null;
+        return mSpuDetailMapper.selectOne(SpuDetailEntity.builder().spuId(spuId).build());
     }
 
+
+    // 根据spu id查询sku列表
     public List<SkuEntity> querySkuListBySpuId(Long spuId) {
-        return null;
-    }
+        // sku列表
+        List<SkuEntity> skuEntities = mSkuMapper.select(SkuEntity.builder().spuId(spuId).build());
 
+        // 库存
+        skuEntities.forEach(sku -> {
+            StockEntity stockEntity = mStockMapper.selectOne(StockEntity.builder().skuId(sku.getId()).build());
+            sku.setStock(stockEntity.getStock());
+            logger.info("sku:{}, stock:{}", sku.getId(), stockEntity);
+        });
+
+        return skuEntities;
+    }
 
 }

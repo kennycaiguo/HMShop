@@ -1,6 +1,6 @@
 package com.shop.upload.controller;
 
-import com.shop.item.ResponseEntity;
+import com.shop.common.pojo.ResponseEntity;
 import com.shop.upload.service.UploadService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -18,19 +18,19 @@ public class CategoryEntity {
     private Long id;
 
     // 分类名称
-    private String  name;
+    private String name;
 
     // 父节点Id
-    private Long    parentId;
+    private Long parentId;
 
     // 是否为父节点
     private Boolean isParent;
 
-    public CategoryEntity(){
+    public CategoryEntity() {
 
     }
 
-    public CategoryEntity(Long parentId){
+    public CategoryEntity(Long parentId) {
         this.parentId = parentId;
     }
 }

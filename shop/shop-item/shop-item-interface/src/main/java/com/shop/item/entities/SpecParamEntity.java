@@ -34,4 +34,5 @@ public class SpecParamEntity {
     private Boolean generic;
 
     private Boolean searching;
+
 }

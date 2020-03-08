@@ -6,6 +6,7 @@ import lombok.ToString;
 @Data
 @ToString
 public class ResponseEntity<T> {
+
     public static <T> ResponseEntity<T> ok(T data) {
         return new ResponseEntity<>(data, Status.OK.code, Status.OK.message);
     }
@@ -24,9 +25,9 @@ public class ResponseEntity<T> {
         this.message = message;
     }
 
-    private int status;
+    private T      data;
+    private int    status;
     private String message;
-    private T data;
 
     /**
      * 状态码
@@ -36,7 +37,7 @@ public class ResponseEntity<T> {
         BAD_REQUEST(400, "请求错误"),
         NOT_FOUND(404, "未找到数据");
 
-        private int code;
+        private int    code;
         private String message;
 
         Status(int code, String message) {
@@ -44,4 +45,5 @@ public class ResponseEntity<T> {
             this.message = message;
         }
     }
+
 }

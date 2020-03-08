@@ -16,11 +16,9 @@ public class CategoryService {
     @Resource
     private CategoryMapper mCategoryMapper;
 
-
     public List<CategoryEntity> queryCategoriesByPid(Long pid) {
         return mCategoryMapper.select(new CategoryEntity(pid));
     }
-
 
     public List<String> queryNamesByIds(List<Long> ids) {
         return this.mCategoryMapper.selectByIdList(ids)
@@ -33,5 +31,13 @@ public class CategoryService {
         if (StringUtils.isNotEmpty(category.getName())) {
             mCategoryMapper.insert(category);
         }
+    }
+
+    public int update(CategoryEntity category) {
+        return mCategoryMapper.updateByPrimaryKey(category);
+    }
+
+    public int delete(Long id) {
+        return mCategoryMapper.deleteByPrimaryKey(id);
     }
 }
